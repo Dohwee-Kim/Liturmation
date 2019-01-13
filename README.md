@@ -1,4 +1,4 @@
-# Liturmation
+# Toy project : Liturmation
 Liturgy-Automation for SADP   
 보편지향기도 모아서 1,2,3,4 주제 classifier 만들기  
 
