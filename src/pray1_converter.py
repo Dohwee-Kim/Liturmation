@@ -70,6 +70,8 @@ def run():
 
     src2tmp1(src_file, tmp_file)
 
+    ## Todo : json -> csv
+
 if __name__ == "__main__":
     run()
 
