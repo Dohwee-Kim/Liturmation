@@ -4,6 +4,7 @@ Liturgy-Automation for SADP
 
 
 ## 각 모듈 및 Directory 설명
+* 각종 소스 파일 : /src
 * data : /data
 
 ## Work flow
