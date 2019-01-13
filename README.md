@@ -6,9 +6,10 @@ Toy project : Prayer classifier
 ## Object
 보편지향기도 모아서 1,2,3,4 주제 classifier 만들기
 
+## 각 모듈 및 Directory 설명
 * data : /data
 
-* Work flow
+## Work flow
 1. Making master data
 2. Sentence tokenizing & 형태소 분석
 3. Word embeding
