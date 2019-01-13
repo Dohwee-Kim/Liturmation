@@ -1,10 +1,8 @@
 # Liturmation
-Liturgy-Automation for SADP
-
+Liturgy-Automation for SADP 
+보편지향기도 모아서 1,2,3,4 주제 classifier 만들기
 Toy project : Prayer classifier
 
-## Object
-보편지향기도 모아서 1,2,3,4 주제 classifier 만들기
 
 ## 각 모듈 및 Directory 설명
 * data : /data
