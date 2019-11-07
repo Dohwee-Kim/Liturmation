@@ -6,7 +6,6 @@ Liturgy-Automation for SADP
 ## 각 모듈 및 Directory 설명
 * 각종 소스 파일 : /src
 * data : /data
-* 서브모듈 Khaiii :/khaiii
 
 ## Work flow
 1. Making master data
@@ -14,3 +13,7 @@ Liturgy-Automation for SADP
 3. Word embeding
 4. Model development
 5. Evaluation and back to 1.
+
+## Install our environment
+```conda create -n py3 python==3.7.2```
+```conda install pytorch torchvision -c pytorch```
