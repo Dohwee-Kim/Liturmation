@@ -14,8 +14,9 @@ Liturgy-Automation for SADP
 4. Model development
 5. Evaluation and back to 1.
 
-## Install our environment
+## Install the environment
 ```conda create -n py3 python==3.7.2```  
 ```conda install pytorch torchvision -c pytorch```  
 ```pip install scipy```  
 ```pip install sklearn```  
+```conda install pandas``` . 
