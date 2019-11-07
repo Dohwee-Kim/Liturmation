@@ -17,3 +17,5 @@ Liturgy-Automation for SADP
 ## Install our environment
 ```conda create -n py3 python==3.7.2```  
 ```conda install pytorch torchvision -c pytorch```  
+```pip install scipy```  
+```pip install sklearn```  
