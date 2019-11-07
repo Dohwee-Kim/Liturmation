@@ -6,6 +6,7 @@ Liturgy-Automation for SADP
 ## 각 모듈 및 Directory 설명
 * 각종 소스 파일 : /src
 * data : /data
+* 서브모듈 Khaiii :/khaiii
 
 ## Work flow
 1. Making master data
