@@ -15,5 +15,5 @@ Liturgy-Automation for SADP
 5. Evaluation and back to 1.
 
 ## Install our environment
-```conda create -n py3 python==3.7.2```
-```conda install pytorch torchvision -c pytorch```
+```conda create -n py3 python==3.7.2``` . 
+```conda install pytorch torchvision -c pytorch``` . 
