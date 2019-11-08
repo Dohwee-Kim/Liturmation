@@ -19,4 +19,6 @@ Liturgy-Automation for SADP
 ```conda install pytorch torchvision -c pytorch```  
 ```pip install scipy```  
 ```pip install sklearn```  
-```conda install pandas``` . 
+```conda install pandas```  
+```conda install jupyter```  
+```python -m ipykernel install --user --name py3 --display-name "py3"```
