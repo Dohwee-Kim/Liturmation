@@ -48,7 +48,7 @@ def convert():
 
     df = pd.DataFrame.from_dict(result_dict)
     csv_file_path = '../data/pray1.csv'
-    df.to_csv(csv_file_path)
+    df.to_csv(csv_file_path, index=False)
 
 
 if __name__=="__main__":
