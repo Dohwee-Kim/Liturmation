@@ -1,6 +1,6 @@
 import re
 import json
-
+import pandas as pd
 
 def text_file_reader(file_path):
 
@@ -41,8 +41,11 @@ def text_file_reader(file_path):
 
 def convert():
     pray_file_path = '../data/pray1.txt'
-    text_file_reader(pray_file_path)
+    result_dict = text_file_reader(pray_file_path)
 
+    df = pd.DataFrame.from_dict(result_dict)
+    csv_file_path = '../data/pray1.csv'
+    df.to_csv(csv_file_path)
 
 
 if __name__=="__main__":
