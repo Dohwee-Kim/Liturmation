@@ -8,6 +8,7 @@ def text_file_reader(file_path):
     dst_file_name = src_file_name + "_CSV.csv"
 
     raw_read_result = []
+    list_of_dict_converted_result = []
 
     #Load files and remove lines
     with open(file_path, 'r', encoding='utf-8-sig') as src:
@@ -21,20 +22,22 @@ def text_file_reader(file_path):
     for itr in raw_read_result:
         if not itr.strip():
             dict_pray = {}
+            continue
 
         #if line starts with a label digit
         if itr[0].isdigit():
+            dict_pray = {}
             dict_pray["label"] = itr[0]
             dict_pray["subject"] = itr[2:]
             #dict_pary["content"] = itr
 
         #if line starts with KOR character
         if re.match("^[ㄱ-ㅎ가-힣]+" , itr[0]) is not None:
-            if not dict_pray:
+            if dict_pray:
                 dict_pray["content"] = itr
-        raw_read_result.append(dict_pray)
+                list_of_dict_converted_result.append(dict_pray)
 
-    print(raw_read_result)
+    return list_of_dict_converted_result
 
 
 
