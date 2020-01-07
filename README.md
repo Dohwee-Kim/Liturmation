@@ -6,6 +6,8 @@
 Liturgy-Automation for SADP   
 보편지향기도 모아서 1,2,3,4 주제 classifier 만들기  
 
+궁극적인 목표는 나를 대신해줄 보편지향기도 생성기 만들기!!!  
+
 
 ## 각 모듈 및 Directory 설명
 * 각종 소스 파일 : /src
