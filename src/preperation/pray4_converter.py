@@ -30,14 +30,14 @@ def run(src_filepath, dst_filepath):
 
 if __name__ == "__main__":
 
-    src_filepath = '../../data/pray4_old.txt'
-    dst_filepath = '../../data/pray4_new.txt'
+    src_filepath = '../../data/pray4_v1.txt'
+    dst_filepath = '../../data/pray4_v2.txt'
     run(src_filepath, dst_filepath)
 
-    src_filepath = '../../data/pray5_old.txt'
-    dst_filepath = '../../data/pray5_new.txt'
+    src_filepath = '../../data/pray5_v1.txt'
+    dst_filepath = '../../data/pray5_v2.txt'
     run(src_filepath, dst_filepath)
 
-    src_filepath = '../../data/pray6_old.txt'
-    dst_filepath = '../../data/pray6_new.txt'
+    src_filepath = '../../data/pray6_v1.txt'
+    dst_filepath = '../../data/pray6_v2.txt'
     run(src_filepath, dst_filepath)
