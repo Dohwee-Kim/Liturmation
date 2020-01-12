@@ -2,11 +2,8 @@ import re
 import json
 import pandas as pd
 
+
 def text_file_reader(file_path):
-
-    src_file_name = file_path.split('/')[-1].strip('.txt')
-    dst_file_name = src_file_name + "_CSV.csv"
-
     raw_read_result = []
     list_of_dict_converted_result = []
 
@@ -40,15 +37,18 @@ def text_file_reader(file_path):
     return list_of_dict_converted_result
 
 
-
-
 def convert():
-    pray_file_path = '../data/pray1.txt'
-    result_dict = text_file_reader(pray_file_path)
+    # pray_file_path = '../data/pray1.txt'
+    # result_dict = text_file_reader(pray_file_path)
 
-    df = pd.DataFrame.from_dict(result_dict)
-    csv_file_path = '../data/pray1.csv'
-    df.to_csv(csv_file_path, index=False)
+    pray4 = text_file_reader('../data/pray4_v2.txt')
+    pray5 = text_file_reader('../data/pray5_v3.txt')
+    pray6 = text_file_reader('../data/pray6_v2.txt')
+
+    pray_master = pray4 + pray5 + pray6
+    df = pd.DataFrame.from_dict(pray_master)
+    csv_file_path = '../data/pray456_v3.csv'
+    df[['label', 'subject', 'content']].to_csv(csv_file_path, index=False)
 
 
 if __name__=="__main__":
