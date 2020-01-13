@@ -21,6 +21,7 @@ Liturgy-Automation for SADP
 5. Evaluation and back to 1.
 
 ## Install the environment
+cuda 10.1 install  
 ```conda create -n py3 python==3.7.2```  
 ```conda install pytorch torchvision -c pytorch```  
 ```pip install scipy```  
