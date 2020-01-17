@@ -17,8 +17,13 @@ Liturgy-Automation for SADP
 1. Making master data
 2. Sentence tokenizing & 형태소 분석
 3. Word embeding
-4. Model development
-5. Evaluation and back to 1.
+4. Model development (one for each work iteration)
+  - BOW
+  - TF-
+  - Word2Vec
+  - Transformer
+  - BERT
+5. Evaluation and back to 1 with different model.
 
 ## Install the environment
 cuda 10.1 install if you want to use GPU  
