@@ -22,6 +22,7 @@ Liturgy-Automation for SADP
   - Word2Vec
   - BERT
 4. Model development (select one for each work iteration)
+  - Logistic regression
   - TF-IPF
   - CNN
   - RNN (LSTM)
