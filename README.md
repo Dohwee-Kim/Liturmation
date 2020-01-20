@@ -15,12 +15,23 @@ Liturgy-Automation for SADP
 
 ## Work flow
 1. Making master data
-2. Sentence tokenizing & 형태소 분석
-3. Word embeding
-4. Model development
-5. Evaluation and back to 1.
+2. Preprocessing
+  - 형태소 분석 툴
+3. Sentence or Word embeding (select one for each work iteration)
+  - BOW
+  - Word2Vec
+  - BERT
+4. Model development (select one for each work iteration)
+  - Logistic regression
+  - TF-IPF
+  - CNN
+  - RNN (LSTM)
+  - Transformer
+  - Other customized model
+5. Evaluation and back to 1
 
 ## Install the environment
+cuda 10.1 install if you want to use GPU  
 ```conda create -n py3 python==3.7.2```  
 ```conda install pytorch torchvision -c pytorch```  
 ```pip install scipy```  
