@@ -109,3 +109,4 @@ data/mnist/mnist.pkl.gz
 
 # data files
 .data/
+Transformer_pyTorch/iwslt.pt
