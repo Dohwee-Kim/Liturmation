@@ -106,3 +106,9 @@ venv.bak/
 ## Pycharm project file.
 .idea/
 data/mnist/mnist.pkl.gz
+
+# data files
+.data/
+Transformer_pyTorch/iwslt.pt
+
+Transformer_pyTorch/en-de-model.pt
