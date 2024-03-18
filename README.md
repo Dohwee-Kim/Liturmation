@@ -1,6 +1,9 @@
 *Software and cathedrals are much the same – first we build them, then we pray.  
 소프트웨어 개발과 대성당의 공통점 - 일단 만들고 나서, 기도한다.*  
 -___Sam Redwine___  
+
+fjekfjwklefjwlgkjwlkegjwelkwgj
+
   
 # Toy project : Liturmation
 Liturgy-Automation for SADP   
